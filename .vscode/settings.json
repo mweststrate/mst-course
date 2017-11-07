@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 4,
+	"editor.renderIndentGuides": false,
+	"editor.detectIndentation": true,
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.renderWhitespace": "none",
+	"files.trimTrailingWhitespace": true,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    // Note, these settings should match lint-staged settings!
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": false
+}
