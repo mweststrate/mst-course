@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "json-server": "^0.12.1",
     "mobx": "^4.3.1",
     "mobx-react": "^5.2.5",
     "mobx-state-tree": "^3.1.1",
