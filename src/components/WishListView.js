@@ -11,8 +11,7 @@ const WishListView = ({ wishList }) => (
                 <WishListItemView key={idx} item={item} />
             ))}
         </ul>
-        Total: {wishList.totalPrice} €
-        <WishListItemEntry wishList={wishList} />
+        Total: {wishList.totalPrice} €<WishListItemEntry wishList={wishList} />
     </div>
 )
 
