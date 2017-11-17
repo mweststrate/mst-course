@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Mogra');
+
+body {
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Mogra', cursive;
+}
+
+body, select, input, button {
+  font-family: 'BioRhyme', cursive;
+  background-color: #f3f3f3;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  margin: 20px 0 20px 0;
+  border-bottom: white;
+  height: 150px;
+}
+
+.App-header img {
+  float: left;
+  height: 150px;
+}
+
+.App-header h1 {
+  font-size: 3em;
+  float: left;
+  padding-left: 20px;
+  color: darkred;
+  text-shadow: 2px 3px 1px white;
+  text-decoration: underline;
+  line-height: 150px;
+  margin: 0;
+}
+
+
+
+.list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.item {
+  border-left: 5px solid #964747;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px #ccc;
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px;
+  min-height: 80px;
+  text-align: right;
+}
+
+.item img {
+  max-height: 80px;
+  float: left;
+}
+
+.item h3 {
+  text-align: left;
+  margin: 0 10px 24px 80px;
+}
+
+.item button {
+  margin-left: 8px;
+}
+
+.item-edit {
+}
+
+.item-edit input {
+  width: 330px;
+  margin: 0 0 6px 10px;
+  padding: 5px 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #964747;
+}
+
+.item-edit input:focus {
+  border-color: #964747;
+}

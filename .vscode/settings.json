@@ -13,5 +13,6 @@
     "prettier.semi": false,
     "prettier.tabWidth": 4,
     "prettier.printWidth": 100,
-    "prettier.singleQuote": false
+    "prettier.singleQuote": false,
+    "editor.lineNumbers": "off"
 }
